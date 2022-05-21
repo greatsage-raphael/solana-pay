@@ -4,7 +4,11 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'solana': "url('../public/solana.gif')"
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
