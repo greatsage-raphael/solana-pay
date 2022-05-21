@@ -1,5 +1,5 @@
 import BackLink from '../components/BackLink';
-import Confirmed from '../components/confirmed';
+import Confirmed from '../components/Confirmed';
 import PageHeading from '../components/PageHeading';
 
 export default function ConfirmedPage() {
