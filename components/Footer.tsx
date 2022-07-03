@@ -6,8 +6,7 @@ export default function Footer() {
         target='_blank'
         rel='noopener noreferrer'
       >
-        Built with 🎧 & ❤️ in kampala. Build your own at {" "} 
-        <span>Pointer</span>
+        Built with 🎧 & ❤️ in kampala.
       </a>
     </footer>
   )
