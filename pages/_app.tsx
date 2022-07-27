@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <WalletModalProvider>
           <Layout>
             <Head>
-              <title>Biiso Coffee</title>
+              <title>Biiso Coffee Inc</title>
             </Head>
             <Component {...pageProps} />
           </Layout>
