@@ -8,7 +8,7 @@ export default function HomePage() {
   const { publicKey } = useWallet()
 
   return (
-    <div className="flex flex-col gap-8 max-w-4xl items-stretch m-auto pt-24">
+    <div className="flex flex-col gap-8 max-w-4xl items-stretch m-auto pt-10">
       <SiteHeading>Biiso Coffee</SiteHeading>
 
       {/* We add the Solana wallet connect button */}
