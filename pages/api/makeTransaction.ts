@@ -17,6 +17,8 @@ type ErrorOutput = {
   error: string
 }
 
+
+//For better type-safety, it is not recommended to extend the req and res objects. Instead, use functions to work with them:
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<MakeTransactionOutputData | ErrorOutput>
